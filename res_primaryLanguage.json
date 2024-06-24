@@ -1,0 +1,360 @@
+{
+  "basic_info": {
+    "description_header": "Hi there!",
+    "description": "👋 I'm Muhammed, a Software Engineer with 3 years of experience proficient in Python and Javascript based stacks. I also have considerable experience with AI particularly NLP and LLMs thanks to my Data Science experience and research-based Master's degree specialization. I’ve enhanced established codebases and also built scalable solutions from scratch in domains ranging from business management software to climate tech. I'm always open to connect, have a chat and explore new opportunities. Cheers! ",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Core Skills",
+      "experience": "Experience",
+      "education": "Education"
+    }
+  },
+  "projects": [
+    {
+      "title": "(WIP) Tracking Injustice",
+      "startDate": "2024",
+      "description": "While vital grassroots efforts have been made to keep track of police and carceral violence, there is no national government or civil society body tracking police-involved deaths or deaths in custody in Canada.<br /> Having recently joined the project, I am looking into expanding the web scraping codebases to further augment the dataset with more data sources and dimensions. I am also exploring ML-based analytics approaches to further increase insights and fill-in data unknowns and null values.",
+      "images": [
+        "images/portfolio/tracking_injustice/1.png"
+      ],
+      "url": "https://trackinginjustice.ca/",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "LLM Privacy",
+      "startDate": "2024",
+      "description": "An emprical study of the privacy leaking tendencies of large language models - Funded by the Office of the Privacy Commisioner of Canada.<br /> <br />My experiments measured the privacy leakage across cutting edge proprietary and open-source models, namely GPT-3.5 and Llama-2. I utilized a number of different prompt types, including direct prompts and jailbreaking prompts, to assess privacy leakage by attempting to bypass guardrails and get the model to leak email addresses in its output. Prompt structures were carefully designed to simulate different scenarios, such as developer mode privilege escalation and 'Do Anything Now' projection.<br /><br />The experiments also examined the impact of the temperature hyperparameter and different jailbreaking prompt structures on privacy leakage. Temperature is a parameter that influences how random or creative the LLM is allowed to be. Two datasets were used: (1) the Enron dataset, known for its real-world corporate emails which have been widely disseminated, and (2) a university professor dataset obtained by scraping web pages. This allowed for testing against both archival and live data.",
+      "images": [
+        "images/portfolio/llm_privacy/1.png",
+        "images/portfolio/llm_privacy/2.png",
+        "images/portfolio/llm_privacy/3.png"
+      ],
+      "url": "https://llmprivacy.ca/",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "Nationality Biases in LLMs",
+      "startDate": "2023",
+      "description": "As the usage of LLMs and their integration into digital solutions increases so do the concerns of biases in generated outputs affecting wider software solutions and processes. In order to promote user trust and acceptance and ensure fairness and inclusivity in model outputs, I performed a study to measure the degree of nationality biases in a number of open-source large language models. By comprehending biases, we can effectively mitigate their spread, thereby guaranteeing fair and ethical utilization of models and software decision outputs. Furthermore, examining nationality biases can guide software practitioners in selecting models by evaluating them based on their bias levels. Nationality bias is relatively underexplored in existing literature as compared to racial and sexual biases, making it an interesting avenue for research.",
+      "images": [
+        "images/portfolio/llm_bias/1.png",
+        "images/portfolio/llm_bias/2.png",
+        "images/portfolio/llm_bias/3.png",
+        "images/portfolio/llm_bias/4.png",
+        "images/portfolio/llm_bias/5.png"
+      ],
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "Automated Code-Edit Generation",
+      "startDate": "2023",
+      "description": "Seeking to improve the code review and refactoring process, I explored the applicability of open-source large language models to the task of automated performance-improving code-edit generation for both Python and C++ code. I conducted a comprehensive set of experiments spanning both fine-tuning and prompt engineering approaches to model alignment across multiple models, hyperparameter configuration and decoding/sampling techiques. I found that generally the models performed better on python tasks than C++ and that Random Sampling in the decoding phase of the architecture yields stronger results than Greedy Decoding across configurations. In line with previous work, I also observe an increase in the % optimized with few-shot prompting rather than zero- or one-shot however the improvements are only upto a threshold afterwhich increases in the prompt context negatively affect and behave as noise.",
+      "images": [
+        "images/portfolio/llm_code_edit_gen/1.png",
+        "images/portfolio/llm_code_edit_gen/2.png",
+        "images/portfolio/llm_code_edit_gen/3.png"
+      ],
+      "url": "https://colab.research.google.com/drive/1uXaUvIYHv3RO5sa281sr16lQHL7n74-E?usp=sharing",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "MSR - Breaking Change Detection",
+      "startDate": "2023",
+      "description": "Breaking changes caused by patches and updates to libraries and dependencies are a major and time-consuming problem in Software Engineering. Existing detection approaches focus on static analysis of API breaking changes. However, such approaches are limited in their capability as each client interacts with a library or depenency in a different manner with different context and package usage execution flow and usage dependencies. A barrier to a more holistic and thorough breaking change detection approach is the lack of a dataset which includes both 'upstream' library API changeset along with the actual downstream usages of said library by the clients which depend on it. We tackle this deficiency with our software repository mining workflow which effectively mines at a large-scale downstream client usages by parsing the abstract syntax trees of clients to isolate and categorize library usages and correlate to a specific patch instance. All in all, 3500+ repositories and over 1 million python files were processed and AST-parsed to produce the dataset to fuel further research in this domain.",
+      "images": [
+        "images/portfolio/msr_breaking_change_detection/1.png",
+        "images/portfolio/msr_breaking_change_detection/2.png"
+      ],
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "Stack Overflow Trend Analysis",
+      "startDate": "2022",
+      "description": "To better understand how the React and Angular.js framework communities differ, I extracted stack overflow post data using BigQuery applied statistical techniques to analyze the data and draw insights. The analysis of contribution distributions in Angular and React communities unveils distinct patterns: Angular posts often garner 0 scores with fewer answers and comments, while React posts exhibit higher scores, more answers, and increased comment engagement. React questions also tend to receive higher view counts, particularly skewed towards lower counts. Moreover, React questions receive accepted answers quicker, typically within 1 hour, contrasting with Angular's longer acceptance times. Correlation analysis further highlights React's stronger positive correlations across metrics, notably between score and view count, indicating React's greater engagement and responsiveness compared to Angular. In summary, React posts tend to have higher engagement and quicker responses compared to Angular, as evidenced by higher scores, answer counts, comment counts, and quicker acceptance of answers.",
+      "images": [
+        "images/portfolio/stack_overflow_analysis/1.png",
+        "images/portfolio/stack_overflow_analysis/2.png",
+        "images/portfolio/stack_overflow_analysis/3.png"
+      ],
+      "url": "https://github.com/muhammedyusuf678/stack-overflow-post-analysis",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-azuresqldatabase-plain",
+          "name": "SQL"
+        },
+        {
+          "class": "devicon-scikitlearn-plain",
+          "name": "Scikit-Learn"
+        }
+      ]
+    },
+    {
+      "title": "Blockdegree",
+      "startDate": "2020",
+      "description": "Lack of trust in credentials are a global problem due to which students are required to have their degrees attested by governments, universities and other entities to be considered valid and access opportunities. This is costly and time consuming and can result in delays or missed time-sensitive opportunities. An effective solution is to store the degree/credential data in a permissioned blockchain network that is controlled by a group of universities. This way trust is in-built into the system and degree attestation will not be required. Through a web application, universities can award digital degrees to students by pushing the degree data to the blockchain and students can then share those degrees with employers and other universities. Before a degree is viewed or rendered, the data is always validated with the immutable blockchain network.",
+      "images": [
+        "images/portfolio/blockdegree/1.png",
+        "images/portfolio/blockdegree/2.png",
+        "images/portfolio/blockdegree/3.png",
+        "images/portfolio/blockdegree/4.png",
+        "images/portfolio/blockdegree/5.png"
+      ],
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Nodejs"
+        },
+        {
+          "class": "devicon-networkx-plain",
+          "name": "Hyperledger Fabric Blockchain"
+        }
+      ]
+    },
+    {
+      "title": "(POC) IoT Healthcare Alert & Response",
+      "startDate": "2020",
+      "description": "For patients recently released from hospitals and the elderly, getting a full-blown heart rate monitor is heavy, inconvenient and expensive for simple passive heart rate monitoring. I developed a prototype proof-of-concept solution where a custom smartwatch application publishes real-time heart-rate readings which family doctors, loved ones and care-givers can subscribe to via a web application allowing for sharing and emergency alerts on lasting low readings and irregular behaviors.",
+      "images": [
+        "images/portfolio/iot_heartrate/1.png",
+        "images/portfolio/iot_heartrate/2.png",
+        "images/portfolio/iot_heartrate/3.png"
+      ],
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Nodejs"
+        },
+        {
+          "class": "devicon-couchdb-plain",
+          "name": "CouchDB"
+        },
+        {
+          "class": "devicon-rabbitmq-plain",
+          "name": "MQTT"
+        },
+        {
+          "class": "fab fa-android",
+          "name": "Smartwatch SDK"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Queen's University",
+      "company_logo": "images/portfolio/logos/queens.png",
+      "url": "https://www.queensu.ca/",
+      "title": "AI Research Assistant",
+      "years": "09.2023 - present",
+      "mainTech": [
+        "Kingston, ON, Canada"
+      ],
+      "technologies": [
+        "Python",
+        "LLM",
+        "HuggingFace"
+      ],
+      "workDescription": [
+        "LoRA fine-tuned open-source large language models (LLM) to generate performance-improving code-edits for python and C++. Achieved code optimization of 70% of samples, runtime reduction of up to 78% and 3x speed up.",
+        "Utilized prompt engineering and natural language processing (NLP) techniques to assess nationality bias in various open-source LLMs creating a benchmark for guiding integration decisions in AI-based software systems.",
+        "Mined and AST-parsed code changeset data on a large scale (3500+ repos, 1M+ code files) and evaluated GPT-3.5 turbo on dependency-induced breaking change detection in the pip package ecosystem."
+      ]
+    },
+    {
+      "company": "Global Changer",
+      "url": "https://www.globalchanger.com/",
+      "company_logo": "images/portfolio/logos/global_changer.png",
+      "title": "Software Engineer",
+      "years": "03.2023 - 09.2023",
+      "mainTech": [
+        "Berlin, Germany"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Ruby on Rails",
+        "PostgresQL",
+        "Docker"
+      ],
+      "companyDescription": "Global Changer is an established ClimateTech startup which offers a sustainability software solution that streamlines reduction strategies while ensuring reporting efficiency in order to ensure compliance with an EU mandate for carbon reporting. The Climate Control Center, a key component, enables identification of emission sources, planning, execution, and delivery of emissions reduction strategies from a single platform. Real-world results showcase significant CO2e savings and emission reductions, making it a comprehensive solution for companies striving towards sustainability goals.",
+      "workDescription": [
+        "Implemented CO2 emissions estimator improving platform onboarding time for new business users by 60%",
+        "Contributed to the Carbon Accounting module for companies to record their carbon footprint to remain compliant with carbon audits as per new EU regulations",
+        "Developed frontend & backend modules for climate control center (climate tech platform) in agile sprint cycles",
+        "Performed database migrations and wrote unit, integration and e2e tests (Tools: rspec, jest, cypress)"
+      ],
+      "images": [
+        "images/companies/global_changer.png"
+      ]
+    },
+    {
+      "company": "Odoo",
+      "url": "https://www.odoo.com/",
+      "company_logo": "images/portfolio/logos/odoo.svg",
+      "title": "Software Engineer",
+      "years": "04.2021 - 09.2022",
+      "mainTech": [
+        "Dubai, UAE"
+      ],
+      "technologies": [
+        "Javascript",
+        "Django",
+        "PostgresQL"
+      ],
+      "images": [
+        "images/companies/odoo-1.png",
+        "images/companies/odoo-2.png",
+        "images/companies/odoo-3.png"
+      ],
+      "companyDescription": "Odoo S.A. (formerly OpenERP) is a software company known for its suite of business management applications whose core modules are open-sourced while enterprise offerings are proprietary. Odoo offers a range of integrated applications covering various aspects of business operations, including sales, CRM (Customer Relationship Management), inventory management, accounting, human resources, project management, and more.",
+      "workDescription": [
+        "Developed modules to grow Odoo’s PaaS and SaaS ERP suite across multiple enterprise application domain verticals including Inventory, E-Commerce, HR, Accounting, Sales and Manufacturing.",
+        "Integrated Google Maps and reverse geocoding into CRM application and connected inventory management with regional shipping providers thereby reducing the number of clicks in the global process flow by 70%.",
+        "Introduced automated consignment and commission-on-sale accounting flows to the suite resulting in a 100% reduction in manual accounting reconciliation efforts for these use-cases. Spearheaded item builder and customization module for restaurant use-cases in the Point of Sale app"
+      ]
+    },
+    {
+      "company": "APCO Worldwide",
+      "url": "https://apcoworldwide.com/",
+      "companyDescription": "APCO Worldwide is a leading global public relations consultancy firm offering expertise in areas such as capital markets, crisis mitigation, social impact and analytics. As part of the AIComms division, I spearheaded the development of new digital and AI based services, most notably the Client Knowledge Hub which automatically extracts and analyzes social media and public perception using NLP techniques such as topic modelling, clustering and sentiment analysis.",
+      "company_logo": "images/portfolio/logos/apco.svg",
+      "title": "Data Scientist",
+      "years": "05.2020 - 04.2021",
+      "mainTech": [
+        "Dubai, UAE"
+      ],
+      "images": [
+        "images/companies/apco.png"
+      ],
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Cube.js",
+        "PostgresQL",
+        "Azure"
+      ],
+      "workDescription": [
+        "Performed Topic Modelling and Named Entity Recognition on 20k+ English and Arabic tweets mined",
+        "Created a bot which automated client report and benchmark generation based on clients’ social media and KPIs. Costs reduced from 2 days manual work to 5 minutes automated (Tools: python-pptx, selenium, gecko-driver).",
+        "Built data analytics and visualization applications from the ground up based on NLP data for numerous big pharma clients allowing for custom drill-down analysis of insights"
+      ]
+    },
+    {
+      "company": "Delivery Hero",
+      "company_logo": "images/portfolio/logos/delivery_hero.png",
+      "url": "https://www.deliveryhero.com/",
+      "title": "Software Engineering Intern",
+      "years": "05.2019 - 09.2019",
+      "mainTech": [
+        "Dubai, UAE"
+      ],
+      "images": [
+        "images/companies/delivery-hero.png"
+      ],
+      "technologies": [
+        "React.js",
+        "Rxjs",
+        "Redux"
+      ],
+      "companyDescription": "Delivery Hero is a global online food delivery service headquartered in Berlin, Germany. It operates in numerous countries around the world, connecting users with a wide range of restaurants and food options through its platform.",
+      "workDescription": [
+        "Developed an interactive data dashboard using React.js, Redux & Auth0 which visualized and reported the results of automated data-integrity checks.",
+        "Wrote unit and integration tests for the dashboard with react-testing-library",
+        "Liaised with product owners, code reviewers and the QA team to push to production."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "Queen's University",
+      "logo": "images/portfolio/logos/queens.png",
+      "degree": "MSc. in Computer Science",
+      "fromDate": "Sept 2023",
+      "toDate": "Aug 2024",
+      "country_flag": "images/portfolio/flags/canada.svg",
+      "location": [
+        "Kingston, ON, Canada"
+      ],
+      "description": "NSERC CREATE Scholarship, specialization in AI",
+      "core_courses": [
+        "Software Engineering & Foundation Models",
+        "Engineering AI Based Systems",
+        "Social Aspects of AI"
+      ]
+    },
+    {
+      "name": "Hasso Plattner Institute",
+      "degree": "MSc. Software Systems Engineering",
+      "logo": "images/portfolio/logos/hpi.svg",
+      "country_flag": "images/portfolio/flags/germany.svg",
+      "fromDate": "Sept 2022",
+      "toDate": "Aug 2023",
+      "location": [
+        "Potsdam, Brandenburg, Germany"
+      ],
+      "description": "Exchange, degree continued at Queen's",
+      "core_courses": [
+        "Big Data Systems",
+        "Advanced Programming Tools",
+        "Mathematics for Machine Learning (Audit)",
+        "Process Mining"
+      ]
+    },
+    {
+      "name": "American University of Sharjah",
+      "logo": "images/portfolio/logos/aus.png",
+      "country_flag": "images/portfolio/flags/uae.svg",
+      "degree": "BSc. in Computer Science",
+      "fromDate": "Aug 2016",
+      "toDate": "May 2020",
+      "location": [
+        "Sharjah, United Arab Emirates"
+      ],
+      "description": "Magna Cum Laude, Chancellor's List Scholarship",
+      "tags": "Chancellor's List Scholarship",
+      "core_courses": [
+        "Data Structures & Algorithms",
+        "Machine Learning",
+        "Internet of Things",
+        "Operating Systems"
+      ]
+    }
+  ]
+}

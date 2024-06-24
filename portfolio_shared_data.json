@@ -1,0 +1,68 @@
+{
+  "basic_info": {
+    "name": "Muhammed Yusuf Dada",
+    "titles": [
+      "Software Engineer",
+      "Full-Stack Developer",
+      "AI/Data Enthusiast",
+      "Data Scientist"
+    ],
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/muhammed-yusuf-dada/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/muhammedyusuf678",
+        "class": "fab fa-github"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "70"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-original",
+        "level": "80"
+      },
+      {
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain-wordmark",
+        "level": "80"
+      },
+      {
+        "name": "Django",
+        "class": "devicon-django-plain",
+        "level": "80"
+      },
+      {
+        "name": "PostgresQL",
+        "class": "devicon-postgresql-plain",
+        "level": "60"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "60"
+      },
+      {
+        "name": "Azure",
+        "class": "devicon-azure-plain",
+        "level": "60"
+      }
+    ]
+  }
+}
