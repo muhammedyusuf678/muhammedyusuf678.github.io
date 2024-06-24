@@ -1,2 +1,3 @@
-# muhammedyusuf678.github.io
-Personal Website and Portfolio built in React.js
+# personal-portfolio
+
+Personal Website and Portfolio developed in React.js.
