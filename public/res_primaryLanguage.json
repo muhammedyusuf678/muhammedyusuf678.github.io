@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi there!",
-    "description": "👋 I'm Muhammed, a Software Engineer with 3 years of experience proficient in Python and Javascript based stacks. I also have considerable experience with AI particularly NLP and LLMs thanks to my Data Science experience and research-based Master's degree specialization. I’ve enhanced established codebases and also built scalable solutions from scratch in domains ranging from business management software to climate tech. I'm always open to connect, have a chat and explore new opportunities. Cheers! ",
+    "description": "👋 I'm Muhammed, a Full-stack Software Engineer with 3 years of experience proficient in Python and Javascript based stacks. I also have some experience with AI particularly NLP and LLMs professionally and also through my research-based Master's degree. I’ve enhanced established codebases and also built scalable solutions from scratch in domains ranging from business management software to climate tech. I'm always open to connect, have a chat and explore new opportunities. Cheers! ",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -183,7 +183,7 @@
       "company_logo": "images/portfolio/logos/queens.png",
       "url": "https://www.queensu.ca/",
       "title": "AI Research Assistant",
-      "years": "09.2023 - present",
+      "years": "09.2023 - 08.2024",
       "mainTech": [
         "Kingston, ON, Canada"
       ],
@@ -255,7 +255,7 @@
       "url": "https://apcoworldwide.com/",
       "companyDescription": "APCO Worldwide is a leading global public relations consultancy firm offering expertise in areas such as capital markets, crisis mitigation, social impact and analytics. As part of the AIComms division, I spearheaded the development of new digital and AI based services, most notably the Client Knowledge Hub which automatically extracts and analyzes social media and public perception using NLP techniques such as topic modelling, clustering and sentiment analysis.",
       "company_logo": "images/portfolio/logos/apco.svg",
-      "title": "Data Scientist",
+      "title": "Software/ML Engineer",
       "years": "05.2020 - 04.2021",
       "mainTech": [
         "Dubai, UAE"
