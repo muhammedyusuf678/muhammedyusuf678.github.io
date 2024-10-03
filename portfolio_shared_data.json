@@ -2,9 +2,9 @@
   "basic_info": {
     "name": "Muhammed Yusuf Dada",
     "titles": [
+      "Data Engineer",
       "Software Engineer",
-      "Full-Stack Developer",
-      "Data Scientist",
+      "Data Analytics and Insights",
       "AI/Data Enthusiast"
     ],
     "social": [
@@ -24,13 +24,28 @@
   "skills": {
     "icons": [
       {
-        "name": "JavaScript",
-        "class": "devicon-javascript-plain",
+        "name": "Python",
+        "class": "devicon-python-plain",
         "level": "70"
       },
       {
-        "name": "Python",
-        "class": "devicon-python-plain",
+        "name": "Azure",
+        "class": "devicon-azure-plain",
+        "level": "60"
+      },
+      {
+        "name": "PostgresQL",
+        "class": "devicon-postgresql-plain",
+        "level": "60"
+      },
+      {
+        "name": "Spark",
+        "class": "devicon-apachespark-original",
+        "level": "70"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
         "level": "70"
       },
       {
@@ -48,19 +63,10 @@
         "class": "devicon-django-plain",
         "level": "80"
       },
-      {
-        "name": "PostgresQL",
-        "class": "devicon-postgresql-plain",
-        "level": "60"
-      },
+
       {
         "name": "MongoDB",
         "class": "devicon-mongodb-plain",
-        "level": "60"
-      },
-      {
-        "name": "Azure",
-        "class": "devicon-azure-plain",
         "level": "60"
       }
     ]

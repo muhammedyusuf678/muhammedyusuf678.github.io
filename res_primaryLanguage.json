@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi there!",
-    "description": "👋 I'm Muhammed, a Full-stack Software Engineer with 3 years of experience proficient in Python and Javascript based stacks. I also have some experience with AI particularly NLP and LLMs professionally and also through my research-based Master's degree. I’ve enhanced established codebases and also built scalable solutions from scratch in domains ranging from business management software to climate tech. I'm always open to connect, have a chat and explore new opportunities. Cheers! ",
+    "description": "👋 I'm Muhammed, a Data Engineer with ~5 years of experience proficient in Python, PowerBI, and Spark. I’ve enhanced established analytics pipelines and also built scalable data-centric solutions from scratch in domains ranging from brand management consulting to business management software. My experience so far has been an interplay of data analytics, data engineering and software and I would love to continue growing across these fronts. I'm always open to connect, have a chat and explore new opportunities. Cheers! ",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -182,7 +182,7 @@
       "company": "Queen's University",
       "company_logo": "images/portfolio/logos/queens.png",
       "url": "https://www.queensu.ca/",
-      "title": "AI Research Assistant",
+      "title": "AI & Data Researcher",
       "years": "09.2023 - 08.2024",
       "mainTech": [
         "Kingston, ON, Canada"
@@ -193,9 +193,8 @@
         "HuggingFace"
       ],
       "workDescription": [
-        "LoRA fine-tuned open-source large language models (LLM) to generate performance-improving code-edits for python and C++. Achieved code optimization of 70% of samples, runtime reduction of up to 78% and 3x speed up.",
-        "Utilized prompt engineering and natural language processing (NLP) techniques to assess nationality bias in various open-source LLMs creating a benchmark for guiding integration decisions in AI-based software systems.",
-        "Mined and AST-parsed code changeset data on a large scale (3500+ repos, 1M+ code files) and evaluated GPT-3.5 turbo on dependency-induced breaking change detection in the pip package ecosystem."
+        "Fine-tuned & aligned open-source AI Chat models (LLM) to generate performance-improving code-edits for Python and C++. Achieved code optimization of 70% of samples, runtime reduction of up to 78% and 3x speed up.",
+        "Analyzed the nationality bias and privacy leakages in cutting-edge AI models (LLM) creating a novel and metrics based benchmark for guiding AI integration decisions. Found that Meta’s Llama2 has fewer guardrails than ChatGPT."
       ]
     },
     {
@@ -215,10 +214,8 @@
       ],
       "companyDescription": "Global Changer is an established ClimateTech startup which offers a sustainability software solution that streamlines reduction strategies while ensuring reporting efficiency in order to ensure compliance with an EU mandate for carbon reporting. The Climate Control Center, a key component, enables identification of emission sources, planning, execution, and delivery of emissions reduction strategies from a single platform. Real-world results showcase significant CO2e savings and emission reductions, making it a comprehensive solution for companies striving towards sustainability goals.",
       "workDescription": [
-        "Implemented CO2 emissions estimator improving platform onboarding time for new business users by 60%",
-        "Contributed to the Carbon Accounting module for companies to record their carbon footprint to remain compliant with carbon audits as per new EU regulations",
-        "Developed frontend & backend modules for climate control center (climate tech platform) in agile sprint cycles",
-        "Performed database migrations and wrote unit, integration and e2e tests (Tools: rspec, jest, cypress)"
+        "Created a Carbon Accounting module and CO2 emissions estimator to help companies analyze and report their carbon footprint in compliance with EU regulations. This estimator, based on extensive past emissions data, eliminated the need for third-party carbon emission consulting for 70% of our clients.",
+        "Introduced an AI-based pipeline to automatically generate economic codes based on client production factors for carbon auditing improving platform onboarding time for new business users by 80%."
       ],
       "images": [
         "images/companies/global_changer.png"
@@ -255,7 +252,7 @@
       "url": "https://apcoworldwide.com/",
       "companyDescription": "APCO Worldwide is a leading global public relations consultancy firm offering expertise in areas such as capital markets, crisis mitigation, social impact and analytics. As part of the AIComms division, I spearheaded the development of new digital and AI based services, most notably the Client Knowledge Hub which automatically extracts and analyzes social media and public perception using NLP techniques such as topic modelling, clustering and sentiment analysis.",
       "company_logo": "images/portfolio/logos/apco.svg",
-      "title": "Software/ML Engineer",
+      "title": "Data Engineer - Analytics & Insights",
       "years": "05.2020 - 04.2021",
       "mainTech": [
         "Dubai, UAE"
@@ -264,16 +261,16 @@
         "images/companies/apco.png"
       ],
       "technologies": [
-        "React.js",
-        "Node.js",
-        "Cube.js",
-        "PostgresQL",
+        "Python",
+        "PowerBI",
+        "Spark",
+        "FastAPI",
         "Azure"
       ],
       "workDescription": [
-        "Performed Topic Modelling and Named Entity Recognition on 20k+ English and Arabic tweets mined",
-        "Created a bot which automated client report and benchmark generation based on clients’ social media and KPIs. Costs reduced from 2 days manual work to 5 minutes automated (Tools: python-pptx, selenium, gecko-driver).",
-        "Built data analytics and visualization applications from the ground up based on NLP data for numerous big pharma clients allowing for custom drill-down analysis of insights"
+        "Built data analytics and visualization applications from the ground up based on NLP data for numerous big pharma clients allowing for custom drill-down analysis of insights (Tools: PowerBI, Python, SQL, Spark, FastAPI).",
+        "Performed Topic Modelling and Named Entity Recognition with contextual embeddings on 50k+ tweets mined (word2vec, LDA, BERT, GPT).",
+        "Created a bot automating client social perception report generation based on clients' social media and KPIs. Costs reduced from 2 days manual work to 5 minutes automated (Tools: Python, Selenium, Databricks, Azure)."
       ]
     },
     {
