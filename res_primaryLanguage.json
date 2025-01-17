@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi there!",
-    "description": "👋 I'm Muhammed, a Software Engineer with ~5 years of experience proficient in Python and Javascript based stacks. I also have considerable experience with AI particularly NLP and LLMs thanks to my Data Science experience and research-based Master's degree specialization. I’ve enhanced established codebases and also built scalable solutions from scratch in domains ranging from business management software to climate tech. I'm always open to connect, have a chat and explore new opportunities. Cheers! ",
+    "description": "👋 I'm Muhammed, a Tech Lead/Senior Software Engineer with ~5 years of experience proficient in Python, Ruby and Javascript based stacks. I also have considerable experience with AI particularly NLP and LLMs thanks to my ML experience and research-based Master's degree specialization. I’ve enhanced established codebases and also built scalable solutions from scratch in domains ranging from business management software to climate tech. I'm always open to connect, have a chat and explore new opportunities. Cheers! ",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -179,6 +179,31 @@
   ],
   "experience": [
     {
+      "company": "Global Changer",
+      "url": "https://www.globalchanger.com/",
+      "company_logo": "images/portfolio/logos/global_changer.png",
+      "title": "Senior Software Engineer",
+      "years": "05.2024 - present",
+      "mainTech": [
+        "Toronto, ON, Canada"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Ruby on Rails",
+        "PostgresQL",
+        "Docker"
+      ],
+      "companyDescription": "Global Changer is an established ClimateTech startup which offers a sustainability software solution that streamlines reduction strategies while ensuring reporting efficiency in order to ensure compliance with an EU mandate for carbon reporting. The Climate Control Center, a key component, enables identification of emission sources, planning, execution, and delivery of emissions reduction strategies from a single platform. Real-world results showcase significant CO2e savings and emission reductions, making it a comprehensive solution for companies striving towards sustainability goals.",
+      "workDescription": [
+        "Conducted technical interviews, onboarded and mentored senior engineers growing the engineering team from 6 to 12.",
+        "Programmed a sustainability reporting module enabling large corporate entities to track, measure and report their carbon footprint in an interoperable manner while reconciling with historical data and future projections.",
+        "Supported Product, Sustainability and Client Success teams with operational tasks and technical consulting"
+      ],
+      "images": [
+        "images/companies/global_changer.png"
+      ]
+    },
+    {
       "company": "Queen's University",
       "company_logo": "images/portfolio/logos/queens.png",
       "url": "https://www.queensu.ca/",
@@ -252,7 +277,7 @@
       "url": "https://apcoworldwide.com/",
       "companyDescription": "APCO Worldwide is a leading global public relations consultancy firm offering expertise in areas such as capital markets, crisis mitigation, social impact and analytics. As part of the AIComms division, I spearheaded the development of new digital and AI based services, most notably the Client Knowledge Hub which automatically extracts and analyzes social media and public perception using NLP techniques such as topic modelling, clustering and sentiment analysis.",
       "company_logo": "images/portfolio/logos/apco.svg",
-      "title": "Data Engineer - Analytics & Insights",
+      "title": "Software/ML Engineer",
       "years": "05.2020 - 04.2021",
       "mainTech": [
         "Dubai, UAE"

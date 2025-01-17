@@ -39,11 +39,6 @@
         "level": "60"
       },
       {
-        "name": "Spark",
-        "class": "devicon-apachespark-original",
-        "level": "70"
-      },
-      {
         "name": "JavaScript",
         "class": "devicon-javascript-plain",
         "level": "70"
@@ -61,6 +56,11 @@
       {
         "name": "Django",
         "class": "devicon-django-plain",
+        "level": "80"
+      },
+      {
+        "name": "Ruby on Rails",
+        "class": "devicon-rails-plain",
         "level": "80"
       },
       {
