@@ -5,7 +5,7 @@
     "section_name": {
       "about": "About me",
       "projects": "Projects",
-      "skills": "Core Skills",
+      "skills": "Technical Skills",
       "experience": "Experience",
       "education": "Education"
     }
@@ -278,7 +278,7 @@
       "url": "https://apcoworldwide.com/",
       "companyDescription": "APCO Worldwide is a leading global public relations consultancy firm offering expertise in areas such as capital markets, crisis mitigation, social impact and analytics. As part of the AIComms division, I spearheaded the development of new digital and AI based services, most notably the Client Knowledge Hub which automatically extracts and analyzes social media and public perception using NLP techniques such as topic modelling, clustering and sentiment analysis.",
       "company_logo": "images/portfolio/logos/apco.svg",
-      "title": "Data Engineer - Analytics & Insights",
+      "title": "Software/ML Engineer",
       "years": "05.2020 - 04.2021",
       "mainTech": [
         "Dubai, UAE"

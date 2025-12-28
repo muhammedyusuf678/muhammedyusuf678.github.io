@@ -29,21 +29,6 @@
         "level": "70"
       },
       {
-        "name": "Azure",
-        "class": "devicon-azure-plain",
-        "level": "60"
-      },
-      {
-        "name": "PostgresQL",
-        "class": "devicon-postgresql-plain",
-        "level": "60"
-      },
-      {
-        "name": "Spark",
-        "class": "devicon-apachespark-original",
-        "level": "70"
-      },
-      {
         "name": "JavaScript",
         "class": "devicon-javascript-plain",
         "level": "70"
@@ -64,8 +49,18 @@
         "level": "80"
       },
       {
+        "name": "PostgreSQL",
+        "class": "devicon-postgresql-plain",
+        "level": "60"
+      },
+      {
         "name": "MongoDB",
         "class": "devicon-mongodb-plain",
+        "level": "60"
+      },
+      {
+        "name": "Azure",
+        "class": "devicon-azure-plain",
         "level": "60"
       }
     ]
