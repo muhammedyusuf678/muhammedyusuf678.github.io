@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi there!",
-    "description": "👋 I'm Muhammed, a Tech Lead/Senior Software Engineer with ~5 years of experience proficient in Python, Ruby and Javascript based stacks. I also have considerable experience with AI particularly NLP and LLMs thanks to my ML experience and research-based Master's degree specialization. I’ve enhanced established codebases and also built scalable solutions from scratch in domains ranging from business management software to climate tech. I'm always open to connect, have a chat and explore new opportunities. Cheers! ",
+    "description": "👋 I'm Muhammed, a Client-facing Solutions Consultant with 5+ years of experience delivering enterprise software solutions across AI, and ERP/CRM platforms. Skilled in translating complex workflows into actionable business outcomes, conducting discovery calls, delivering demos, and driving adoption for technical and non-technical stakeholders. Proven success optimizing processes, integrating modular solutions, and bridging engineering and business needs to deliver measurable impact. I'm always open to connect, have a chat and explore new opportunities. Cheers! ",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -182,10 +182,10 @@
       "company": "Global Changer",
       "url": "https://www.globalchanger.com/",
       "company_logo": "images/portfolio/logos/global_changer.png",
-      "title": "Senior Software Engineer",
-      "years": "05.2024 - present",
+      "title": "Technical Lead - Customer Success",
+      "years": "09.2024 - present",
       "mainTech": [
-        "Toronto, ON, Canada"
+        "Berlin, Germany"
       ],
       "technologies": [
         "Vue.js",
@@ -195,9 +195,8 @@
       ],
       "companyDescription": "Global Changer is an established ClimateTech startup which offers a sustainability software solution that streamlines reduction strategies while ensuring reporting efficiency in order to ensure compliance with an EU mandate for carbon reporting. The Climate Control Center, a key component, enables identification of emission sources, planning, execution, and delivery of emissions reduction strategies from a single platform. Real-world results showcase significant CO2e savings and emission reductions, making it a comprehensive solution for companies striving towards sustainability goals.",
       "workDescription": [
-        "Conducted technical interviews, onboarded and mentored senior engineers growing the engineering team from 6 to 12.",
-        "Programmed a sustainability reporting module enabling large corporate entities to track, measure and report their carbon footprint in an interoperable manner while reconciling with historical data and future projections.",
-        "Supported Product, Sustainability and Client Success teams with operational tasks and technical consulting"
+        "Acted as the client-facing technical expert during pilot deployments, gathering feedback to optimize workflows and align product capabilities with real-world business needs.",
+        "Contributed to an agentic AI module to automatically and reliably decompose commercial products into raw materials and match (using RAG and vector stores) to relevant carbon dioxide emission factors."
       ],
       "images": [
         "images/companies/global_changer.png"
@@ -226,7 +225,7 @@
       "company": "Global Changer",
       "url": "https://www.globalchanger.com/",
       "company_logo": "images/portfolio/logos/global_changer.png",
-      "title": "Software Engineer",
+      "title": "Solutions Engineer",
       "years": "03.2023 - 09.2023",
       "mainTech": [
         "Berlin, Germany"
@@ -239,8 +238,8 @@
       ],
       "companyDescription": "Global Changer is an established ClimateTech startup which offers a sustainability software solution that streamlines reduction strategies while ensuring reporting efficiency in order to ensure compliance with an EU mandate for carbon reporting. The Climate Control Center, a key component, enables identification of emission sources, planning, execution, and delivery of emissions reduction strategies from a single platform. Real-world results showcase significant CO2e savings and emission reductions, making it a comprehensive solution for companies striving towards sustainability goals.",
       "workDescription": [
-        "Created a Carbon Accounting module and CO2 emissions estimator to help companies analyze and report their carbon footprint in compliance with EU regulations. This estimator, based on extensive past emissions data, eliminated the need for third-party carbon emission consulting for 70% of our clients.",
-        "Introduced an AI-based pipeline to automatically generate economic codes based on client production factors for carbon auditing improving platform onboarding time for new business users by 80%."
+        "Mentored and guided internal teams on solution implementation best practices, ensuring scalable deployment of technical modules aligned with client requirements in agile sprints.",
+        "Introduced LLM-based pipeline to automatically generate economic codes based on client production factors for carbon auditing improving platform onboarding time for new business users by 80% in typical cases."
       ],
       "images": [
         "images/companies/global_changer.png"
@@ -250,7 +249,7 @@
       "company": "Odoo",
       "url": "https://www.odoo.com/",
       "company_logo": "images/portfolio/logos/odoo.svg",
-      "title": "Software Engineer",
+      "title": "Solutions Engineer",
       "years": "04.2021 - 09.2022",
       "mainTech": [
         "Dubai, UAE"
@@ -267,9 +266,11 @@
       ],
       "companyDescription": "Odoo S.A. (formerly OpenERP) is a software company known for its suite of business management applications whose core modules are open-sourced while enterprise offerings are proprietary. Odoo offers a range of integrated applications covering various aspects of business operations, including sales, CRM (Customer Relationship Management), inventory management, accounting, human resources, project management, and more.",
       "workDescription": [
-        "Developed modules to grow Odoo’s PaaS and SaaS ERP suite across multiple enterprise application domain verticals including Inventory, E-Commerce, HR, Accounting, Sales and Manufacturing.",
-        "Integrated Google Maps and reverse geocoding into CRM application and connected inventory management with regional shipping providers thereby reducing the number of clicks in the global process flow by 70%.",
-        "Introduced automated consignment and commission-on-sale accounting flows to the suite resulting in a 100% reduction in manual accounting reconciliation efforts for these use-cases. Spearheaded item builder and customization module for restaurant use-cases in the Point of Sale app"
+        "Worked directly with enterprise clients to design and tailor Odoo’s modular ERP/CRM solutions—covering Inventory, Manufacturing, Sales, Accounting, HR, and eCommerce—ensuring seamless implementation and alignment with business processes.",
+        "Led technical discovery calls and delivered product demos to non-technical stakeholders, explaining complex workflows in a clear, accessible way and driving adoption of Odoo’s modular architecture.",
+        "Implemented custom automation rules using Odoo Studio to reduce manual tasks: automated invoice validation, purchase order approval, and expense workflows to bring client story to fruition.",
+        "Architected integrated workflows combining Odoo’s Inventory and Manufacturing modules: set up reordering rules, multi-warehouse routing, and automated purchase triggers to optimize stock levels.",
+        "Provided ongoing technical support and training to clients, including admins and end users, to ensure smooth adoption, data integrity, and scalable usage."
       ]
     },
     {
@@ -277,7 +278,7 @@
       "url": "https://apcoworldwide.com/",
       "companyDescription": "APCO Worldwide is a leading global public relations consultancy firm offering expertise in areas such as capital markets, crisis mitigation, social impact and analytics. As part of the AIComms division, I spearheaded the development of new digital and AI based services, most notably the Client Knowledge Hub which automatically extracts and analyzes social media and public perception using NLP techniques such as topic modelling, clustering and sentiment analysis.",
       "company_logo": "images/portfolio/logos/apco.svg",
-      "title": "Software/ML Engineer",
+      "title": "Data Engineer - Analytics & Insights",
       "years": "05.2020 - 04.2021",
       "mainTech": [
         "Dubai, UAE"

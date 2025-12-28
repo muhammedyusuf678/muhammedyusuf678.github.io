@@ -2,10 +2,10 @@
   "basic_info": {
     "name": "Muhammed Yusuf Dada",
     "titles": [
-      "Software Engineer",
-      "Product Developer",
-      "Data Analytics and Insights",
-      "AI/Data Enthusiast"
+      "Solutions Engineer",
+      "Technical Consultant",
+      "Pre-sales Engineer",
+      "Software Engineer"
     ],
     "social": [
       {
@@ -39,6 +39,11 @@
         "level": "60"
       },
       {
+        "name": "Spark",
+        "class": "devicon-apachespark-original",
+        "level": "70"
+      },
+      {
         "name": "JavaScript",
         "class": "devicon-javascript-plain",
         "level": "70"
@@ -56,11 +61,6 @@
       {
         "name": "Django",
         "class": "devicon-django-plain",
-        "level": "80"
-      },
-      {
-        "name": "Ruby on Rails",
-        "class": "devicon-rails-plain",
         "level": "80"
       },
       {
