@@ -43,7 +43,7 @@ class About extends Component {
                         fontFamily: "cursive",
                       }}
                     >
-                      Kingston, ON
+                      Toronto, ON
                     </span>
                     <img
                       src='images/portfolio/flags/canada.svg'
