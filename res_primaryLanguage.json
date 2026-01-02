@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi there!",
-    "description": "👋 I'm Muhammed, a Client-facing Solutions Consultant with 5+ years of experience delivering enterprise software solutions across AI, and ERP/CRM platforms. Skilled in translating complex workflows into actionable business outcomes, conducting discovery calls, delivering demos, and driving adoption for technical and non-technical stakeholders. Proven success optimizing processes, integrating modular solutions, and bridging engineering and business needs to deliver measurable impact. I'm always open to connect, have a chat and explore new opportunities. Cheers! ",
+    "description": "👋 I'm Muhammed, I'm a seasoned Solutions Engineer and Tech Lead with 5+ years of experience delivering enterprise software and SaaS solutions. I specialize in translating complex technical workflows into actionable business outcomes and have hands-on experience with Python and JavaScript stacks, product development, and AI/NLP integrations. I'm always open to connect, have a chat and explore new opportunities. Cheers! ",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -182,10 +182,10 @@
       "company": "Global Changer",
       "url": "https://www.globalchanger.com/",
       "company_logo": "images/portfolio/logos/global_changer.png",
-      "title": "Technical Lead - Customer Success",
+      "title": "Technical Lead",
       "years": "09.2024 - present",
       "mainTech": [
-        "Berlin, Germany"
+        "Toronto, ON, Canada"
       ],
       "technologies": [
         "Vue.js",
@@ -249,7 +249,7 @@
       "company": "Odoo",
       "url": "https://www.odoo.com/",
       "company_logo": "images/portfolio/logos/odoo.svg",
-      "title": "Solutions Engineer",
+      "title": "Technical Solutions Consultant",
       "years": "04.2021 - 09.2022",
       "mainTech": [
         "Dubai, UAE"
